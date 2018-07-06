@@ -27,14 +27,18 @@ jQuery(document).ready(function() {
       'nav-about': 'Hi, I am Julia',
       'nav-photopackages': 'Photo packages',
       'nav-contact': 'Contact me',
-      'nav-close': 'Close x'
+      'nav-close': 'Close x',
+      'title-intro': 'Party photoshoot, family photoshoot, portrait photoshoot, pet photoshoot',
+      'title-portfolio': 'Portfolio'
     },
     'fi': {
       'nav-home': 'Etusivu',
       'nav-about': 'Moikka, olen Julia',
       'nav-photopackages': 'Kuvauspaketit',
       'nav-contact': 'Ota yhteyttä',
-      'nav-close': 'Sulje x'
+      'nav-close': 'Sulje x',
+      'title-intro': 'Juhlakuvaus, perhekuvaus, potrettikuvaus, lemmikkikuvaus',
+      'title-portfolio': 'PortfolioFI'
     }
   });
 
