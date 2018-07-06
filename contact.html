@@ -6,10 +6,56 @@
 <link rel="stylesheet" href="styles/w3.css">
 <link rel="stylesheet" href="styles/myStyles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-
 <body>
-    <p>CONTACT</p>
-    <a href="index.html">HOME</a>
+    <!-- Navigation -->
+    <div class="w3-top">
+
+        <!-- NAV bar for large screens-->
+        <div class="w3-bar w3-light-grey w3-opacity-min">
+          <a href="index.html" class="w3-bar-item w3-button"><span data-i18n="nav-home">nav-home</span></a>
+          <a href="#" class="w3-bar-item w3-button w3-right lang-switch w3-hide-small" data-locale="en">EN</a>
+          <a href="#" class="w3-bar-item w3-button w3-right lang-switch w3-hide-small" data-locale="fi">FI</a>
+    
+    
+          <a href="contact.html" class="w3-bar-item w3-button w3-right w3-hide-small w3-green"><span data-i18n="nav-contact">nav-contact</span></a>
+          <a href="photopackages.html" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-photopackages">nav-photopackages</span></a>
+          <a href="about.html" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-about">nav-about</span></a>
+    
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+    
+        <!-- NAV button for small devices -->
+        <div id="nav-buttons" class="w3-bar-block w3-light-grey w3-opacity-min w3-hide w3-hide-large w3-hide-medium">
+          <a href="#todo" class="w3-bar-item w3-button w3-right"><span data-i18n="nav-about">nav-about</span></a>
+          <a href="#todo" class="w3-bar-item w3-button w3-right"><span data-i18n="nav-photopackages">nav-photopackages</span></a>
+          <a href="#todo" class="w3-bar-item w3-button w3-right"><span data-i18n="nav-contact">nav-contact</span></a>
+          <a href="#" class="w3-bar-item w3-button w3-right lang-switch" data-locale="fi">FI</a>
+          <a href="#" class="w3-bar-item w3-button w3-right lang-switch" data-locale="en">EN</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right" onclick="myFunction()"><span data-i18n="nav-close">nav-close</span></a>
+        </div>
+    </div>
+    
+    <div class="w3-content w3-container w3-padding-48">
+        <h1><span data-i18n="nav-contact">nav-contact</span></h1>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Nav buttons -->
+    <script src="js/nav.js"></script>
+
+    <!-- i18n -->
+    <script src="js/CLDRPluralRuleParser.js"></script>
+    <script src="js/jquery.i18n.js"></script>
+    <script src="js/jquery.i18n.messagestore.js"></script>
+    <script src="js/jquery.i18n.fallbacks.js"></script>
+    <script src="js/jquery.i18n.language.js"></script>
+    <script src="js/jquery.i18n.parser.js"></script>
+    <script src="js/jquery.i18n.emitter.js"></script>
+    <script src="js/jquery.i18n.emitter.bidi.js"></script>
+    <script src="js/main-jquery_i18n.js"></script>
+
 </body>
 
 </html>
