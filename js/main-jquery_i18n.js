@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
       'nav-contact': 'Ota yhteyttä',
       'nav-close': 'Sulje x',
       'title-intro': 'Juhlakuvaus, perhekuvaus, potrettikuvaus, lemmikkikuvaus',
-      'title-portfolio': 'PortfolioFI'
+      'title-portfolio': 'Portfolio'
     }
   });
 
