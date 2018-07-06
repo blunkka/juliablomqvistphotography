@@ -19,9 +19,9 @@
       <a href="#" class="w3-bar-item w3-button w3-right lang-switch w3-hide-small" data-locale="fi">FI</a>
 
 
-      <a href="#todo" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-contact">nav-contact</span></a>
-      <a href="#todo" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-photopackages">nav-photopackages</span></a>
-      <a href="#todo" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-about">nav-about</span></a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-contact">nav-contact</span></a>
+      <a href="photopackages.html" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-photopackages">nav-photopackages</span></a>
+      <a href="about.html" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-about">nav-about</span></a>
 
       <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
     </div>
@@ -37,15 +37,28 @@
     </div>
   </div>
 
-  <div class="w3-content" style="max-width:2048px">
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2048px" id="home">
 
     <!-- Slideshow -->
-    <div style="max-height:550px;overflow: hidden">
-      <img class="mySlides w3-image" src="http://placehold.it/1500x800">
-      <img class="mySlides w3-image" src="http://placehold.it/1500x800/250">
-      <img class="mySlides w3-image" src="http://placehold.it/1500x800/300">
-      <img class="mySlides w3-image" src="images/slides/lavi.jpg" style="width:100%">
-      <img class="mySlides w3-image" src="images/slides/sini_ja_jusku.jpg" style="width:100%">
+    <div style="height:75vh;overflow: hidden">
+      <div class="mySlides w3-display-container w3-center">
+          <img class="w3-image" src="http://placehold.it/1500x800" style="width:100%">
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+          <img class="w3-image" src="http://placehold.it/1500x800/250" style="width:100%">
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+          <img class="w3-image" src="http://placehold.it/1500x800/300" style="width:100%">
+      </div>
+    </div>
+
+    <!-- Main title and logo -->
+    <div class="w3-content w3-container w3-center w3-padding-16">
+        <h1 class="w3-xlarge">Julia Blomqvist Photography</h1>
+        <div class="w3-display-container">
+            <img class="w3-image" src="http://placehold.it/300x150">
+        </div>
     </div>
 
   </div>
