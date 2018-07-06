@@ -9,8 +9,12 @@
 <body>
     <div id="includedContent"></div>
     
-    <p>ABOUT</p>
-    <a href="index.html">HOME</a>
+    <div class="w3-content w3-container">
+        <p>ABOUT - TODO</p>
+    </div>
+    
+    <!-- Nav buttons -->
+    <script src="js/nav.js"></script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -19,6 +23,17 @@
           $("#includedContent").load("nav.html"); 
         });
     </script>
+
+  <!-- i18n -->
+  <script src="js/CLDRPluralRuleParser.js"></script>
+  <script src="js/jquery.i18n.js"></script>
+  <script src="js/jquery.i18n.messagestore.js"></script>
+  <script src="js/jquery.i18n.fallbacks.js"></script>
+  <script src="js/jquery.i18n.language.js"></script>
+  <script src="js/jquery.i18n.parser.js"></script>
+  <script src="js/jquery.i18n.emitter.js"></script>
+  <script src="js/jquery.i18n.emitter.bidi.js"></script>
+  <script src="js/main-jquery_i18n.js"></script>
 </body>
 
 </html>
