@@ -1,8 +1,100 @@
-<html>
-<head>
-<title>Julia Blomqvist Photography</title>
-</head>
+<!DOCTYPE html>
+<html lang="fi">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/w3.css">
+<link rel="stylesheet" href="styles/myStyles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
 <body>
-<h1>www.juliablomqvistphotography.fi tulossa pian</h1>
+
+  <!-- Navigation -->
+  <div class="w3-top">
+
+    <!-- NAV bar for large screens-->
+    <div class="w3-bar w3-light-grey w3-animate-top w3-opacity-min">
+      <a href="#home" class="w3-bar-item w3-button"><span data-i18n="nav-home">nav-home</span></a>
+      <a href="#" class="w3-bar-item w3-button w3-right lang-switch w3-hide-small" data-locale="en">EN</a>
+      <a href="#" class="w3-bar-item w3-button w3-right lang-switch w3-hide-small" data-locale="fi">FI</a>
+
+
+      <a href="#todo" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-contact">nav-contact</span></a>
+      <a href="#todo" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-photopackages">nav-photopackages</span></a>
+      <a href="#todo" class="w3-bar-item w3-button w3-right w3-hide-small"><span data-i18n="nav-about">nav-about</span></a>
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- NAV button for small devices -->
+    <div id="nav-buttons" class="w3-bar-block w3-light-grey w3-opacity-min w3-hide w3-hide-large w3-hide-medium">
+      <a href="#todo" class="w3-bar-item w3-button w3-right"><span data-i18n="nav-about">nav-about</span></a>
+      <a href="#todo" class="w3-bar-item w3-button w3-right"><span data-i18n="nav-photopackages">nav-photopackages</span></a>
+      <a href="#todo" class="w3-bar-item w3-button w3-right"><span data-i18n="nav-contact">nav-contact</span></a>
+      <a href="#" class="w3-bar-item w3-button w3-right lang-switch" data-locale="fi">FI</a>
+      <a href="#" class="w3-bar-item w3-button w3-right lang-switch" data-locale="en">EN</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right" onclick="myFunction()"><span data-i18n="nav-close">nav-close</span></a>
+    </div>
+  </div>
+
+  <div class="w3-content" style="max-width:2048px">
+
+    <!-- Slideshow -->
+    <div style="max-height:550px;overflow: hidden">
+      <img class="mySlides w3-image" src="http://placehold.it/1500x800">
+      <img class="mySlides w3-image" src="http://placehold.it/1500x800/250">
+      <img class="mySlides w3-image" src="http://placehold.it/1500x800/300">
+      <img class="mySlides w3-image" src="images/slides/lavi.jpg" style="width:100%">
+      <img class="mySlides w3-image" src="images/slides/sini_ja_jusku.jpg" style="width:100%">
+    </div>
+
+  </div>
+
+  <!-- Nav buttons -->
+  <script>
+  function myFunction() {
+      var x = document.getElementById("nav-buttons");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  </script>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- smooth
+  <script src="js/smooth.js"></script>
+  -->
+
+  <script>
+  var myIndex = 0;
+  carousel();
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000); // Change image every 2 seconds
+  }
+  </script>
+
+  <!-- i18n -->
+  <script src="js/CLDRPluralRuleParser.js"></script>
+  <script src="js/jquery.i18n.js"></script>
+  <script src="js/jquery.i18n.messagestore.js"></script>
+  <script src="js/jquery.i18n.fallbacks.js"></script>
+  <script src="js/jquery.i18n.language.js"></script>
+  <script src="js/jquery.i18n.parser.js"></script>
+  <script src="js/jquery.i18n.emitter.js"></script>
+  <script src="js/jquery.i18n.emitter.bidi.js"></script>
+  <script src="js/main-jquery_i18n.js"></script>
+
 </body>
 </html>
