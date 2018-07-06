@@ -1,11 +1,23 @@
 jQuery(document).ready(function() {
+
   var update_texts = function() {
+
+    var selectedLocale = localStorage.getItem('jbplocale');
+    if(selectedLocale == null) {
+      localStorage.setItem('jbplocale', 'fi');
+    }
+
+    $.i18n().locale = localStorage.getItem('jbplocale');
+
     $('body').i18n();
   };
 
   $('.lang-switch').click(function(e) {
     e.preventDefault();
-    $.i18n().locale = $(this).data('locale');
+
+    /*$.i18n().locale = $(this).data('locale');*/
+    localStorage.setItem('jbplocale', $(this).data('locale'));
+
     update_texts();
   });
 
