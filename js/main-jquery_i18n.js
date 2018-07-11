@@ -42,7 +42,8 @@ jQuery(document).ready(function() {
       'text-about-p6': '',
       'text-about-p7': '',
       'text-about-p8': '',
-      'text-about-p9': ''
+      'text-about-p9': '',
+      'contact-form-button': 'Send'
     },
     'fi': {
       'nav-home': 'Etusivu',
@@ -64,7 +65,8 @@ jQuery(document).ready(function() {
       'text-about-p6': 'Palvelen asiakkaitani suomen kielen lisäksi tarvittaessa myös englanniksi tai saksaksi.',
       'text-about-p7': 'Jos kiinnostuksesi heräsi, minuun saa parhaiten yhteyttä tämän sivuston yhteydenottolomakkeen avulla. Pyrin vastaamaan 24 tunnin sisällä.',
       'text-about-p8': 'Suhtaudun avoimin mielin erilaisiin projekteihin ja teen parhaani, jotta valokuvat tuottaisivat sinulle hyvää mieltä läpi elämän.',
-      'text-about-p9': 'Yhteydenottoasi odottaen'
+      'text-about-p9': 'Yhteydenottoasi odottaen',
+      'contact-form-button': 'Lähetä'
     }
   });
 
