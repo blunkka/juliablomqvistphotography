@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
     'en': {
       'nav-home': 'Home',
       'nav-about': 'Hi, I am Julia',
-      'nav-photopackages': 'Photo packages',
+      'nav-photopackages': 'Prices',
       'nav-contact': 'Contact me',
       'nav-close': 'Close x',
       'title-intro': 'Party photoshoot, family photoshoot, portrait photoshoot, pet photoshoot',
@@ -52,24 +52,12 @@ jQuery(document).ready(function() {
       'text-photopackages-p1': '',
       'text-photopackages-p2': '',
       'text-photopackages-p3': '',
-      'text-photopackages-p4': '',
-      'text-photopackages-p5': '',
-      'text-photopackages-p6': '',
-      'text-photopackages-p7': '',
-      'text-photopackages-p8': '',
-      'text-photopackages-p9': '',
-      'text-photopackages-p10': '',
-      'text-photopackages-p11': '',
-      'text-photopackages-p12': '',
-      'text-photopackages-p13': '',
-      'text-photopackages-p14': '',
-      'text-photopackages-p15': '',
-      'text-photopackages-p16': ''
+      'text-photopackages-p4': ''
     },
     'fi': {
       'nav-home': 'Etusivu',
       'nav-about': 'Moikka, olen Julia',
-      'nav-photopackages': 'Kuvauspaketit',
+      'nav-photopackages': 'Hinnasto',
       'nav-contact': 'Ota yhteyttä',
       'nav-close': 'Sulje x',
       'title-intro': 'Juhlakuvaus, perhekuvaus, potrettikuvaus, lemmikkikuvaus',
@@ -92,22 +80,13 @@ jQuery(document).ready(function() {
       'header-contact-form': 'Yhteydenottolomake',
       'contact-form-button': 'Lähetä',
       'header-photopackages': 'Tarjoamani palvelut',
-      'text-photopackages-p1': 'Laskutan kuvaukseeni käyttämästäni ajasta enkä kuvien määrästä, vaikkakin lupaan jokaista tuntia kohden minimimäärän editoituja kuvia, joka on 30 kpl/h. Kuvaukseen käytettävä aika sovitaan asiakkaan kanssa aina etukäteen. Kuvien toimitusaika on enintään kaksi viikkoa. Kaikki kuvat toimitetaan digitaalisesti.',
-      'text-photopackages-p2': 'Olen aloitteleva ammattikuvaaja ja se on huomioitu hinnoissa. Laskutan aina UKKO.fi palvelun kautta, joka huolehtii siitä, että työstäni peritään asianmukaisesti verot.',
-      'text-photopackages-p3': 'Tuntitaksani on 60 euroa. Puoli tuntia kustantaa vastaavasti 30 euroa. En kuitenkaan tee alle tunnin mittaisia kuvauksia. Tällä tuntitaksalla pidätän oikeudet käyttää kuvia rajoituksetta omien kuvauspalveluideni markkinoitiin esimerkiksi internet- ja some-sivustoillani.',
-      'text-photopackages-p4': 'Olen havainnut, että joskus ihmiset kokevat kuvaustilanteet hyvin henkilökohtaisiksi. Tällöin kuvien käyttö markkinoinnissa voi tuntua kuvattavista epämukavalta. Haluan pystyä palvelemaan myös näitä henkilöitä. Siksi minut on mahdollista tilata myös sopimuksella, jossa molemmat osapuolet sitoutuvat siihen, ettei kuvia julkaista avoimesti. Tällöin laskutan käyttöoikeuksista luopumisesta 60 €/h, jolloin tuntitaksani on 120€/h.',
-      'text-photopackages-p5': 'Kuvauksesta 10 kilometrin päässä kodistani Helsingin Herttoniemessä perin kilometrikorvauksen, joka on 0,5 €/km.',
-      'text-photopackages-p6': 'Yli kolmen tunnin mittaisesta kuvauskeikasta perin etukäteen 20 prosenttia kuvauskeikasta maksettavasta kokonaispalkkiosta.',
-      'text-photopackages-p7': 'Eri kuvaustilanteisiin suosittelen seuraavia kuvausaikoja, vaikkakin kuvauksiin tarvittava aika riippuu aina siitä millaisia kuvia asiakas toivoo:',
-      'text-photopackages-p8': 'Hääkuvaus:',
-      'text-photopackages-p9': 'Vihkiseremonia ja potretit: 3 tuntia.',
-      'text-photopackages-p10': 'Dokumentaarinen hääkuvaus: Vähintään 5 tuntia',
-      'text-photopackages-p11': 'Muu juhlakuvaus kuten valmistujais-, syntymäpäivä-, ristijäis- tai polttarikuvaus : Vähintään 2 tuntia',
-      'text-photopackages-p12': 'Minä itse -kuvaus kuten odotuskuvaus, valmistujaiskuvaus tai muuten vain -kuvaus miljöössä: 1 tunti',
-      'text-photopackages-p13': 'Perhekuvaus/lapsikuvaus/kihlakuvaus/parisuhdekuvaus/ystäväkuvaus miljöössä: 1,5 tuntia',
-      'text-photopackages-p14': 'Lemmikkikuvaus: 1,5  tuntia',
-      'text-photopackages-p15': 'Minulta on mahdollista ostaa myös lahjakortteja eri kuvauspaketteihin.',
-      'text-photopackages-p16': 'Ota yhteyttä lomakkeen avulla ja käydään vaikka kahvilla. Jutellaan toiveistasi ja suunnitellaan kuvauspäivä, joka vastaa parhaalla mahdollisella tavalla sinun tarpeitasi.'
+      'text-photopackages-p1': 'Laskutan kuvaukseeni käyttämästäni ajasta enkä kuvien määrästä, vaikkakin lupaan jokaista tuntia kohden <b>minimimäärän huolellisesti editoituja kuvia</b>. Kuvaukseen käytettävä aika sovitaan asiakkaan kanssa aina etukäteen. Kuvien <b>toimitusaika</b> on <b>enintään kaksi viikkoa</b> ja kaikki kuvat toimitetaan <b>digitaalisesti</b> asiakkaan henkilökohtaisen <b>salasanasuojatun nettigallerian kautta</b>. Olen aloitteleva ammattikuvaaja ja olen huomioinut sen hinnoissani. <b>Laskutan aina UKKO.FI palvelun kautta</b>, joka huolehtii siitä, että kuvauspalkkiostani maksetaan asianmukaiset verot.',
+      'text-photopackages-p2': 'Tuntitaksani on <b>90 euroa</b> ja puolesta tunnista veloitan vastaavasti <b>45 euroa</b>. Tunnin kuvauskeikasta <b>lupaan vähintään 20 kpl</b> ja puolen tunnin kuvauskeikasta <b>vähintään 3 kpl</b> käsiteltyjä kuvia. Tällä tuntitaksalla pidätän oikeudet käyttää kuvia rajoituksetta omien kuvauspalveluideni markkinoitiin internet- ja some-kanavillani. Vastaavasti sinäkin saat jakaa kuvia halutessasi avoimesti internetissä, kunhan kuvaaja mainitaan.',
+      'text-photopackages-p3': 'Olen havainnut, että joskus ihmiset kokevat kuvaustilanteet hyvin henkilökohtaisiksi. Tällöin kuvien käyttö markkinoinnissa voi tuntua kuvattavista epämukavalta. Haluan pystyä palvelemaan myös näitä henkilöitä. Siksi minut on mahdollista tilata myös sopimuksella, jossa molemmat osapuolet sitoutuvat siihen, ettei kuvia julkaista avoimesti. <b>Tällöin laskutan käyttöoikeuksista luopumisesta 50 prosentin lisämaksun</b>, jolloin tuntitaksakseni muodostuu <b>135 euroa</b> ja puolen tunnin taksaksi vastaavasti <b>67,5 euroa</b>. Saat kuitenkin jakaa valokuvia halutessasi sosiaalisessa mediassa rajatulle yleisölle, jolloin kuvaaja on niin ikään mainittava.',
+      'text-photopackages-p4': 'Kuvauksesta 10 kilometrin päässä kodistani Helsingin Herttoniemessä perin <b>kilometrikorvauksen</b>, joka on <b>0,5 €/km</b>. Yli kolmen tunnin mittaisesta kuvauskeikasta perin etukäteen <b>20 prosenttia</b> työstä maksettavasta kokonaispalkkiosta.',
+
+      'text-photopackages-p5': 'Minulta on mahdollista ostaa myös käsintehtyjä <b>lahjakortteja</b> eri kuvauspalveluihin. Mikä olisikaan ihanampi aineeton lahja rakkaalle ihmiselle, kuin vaikkapa sarja yhteiskuvia jossakin molemmille merkityksellisessä paikassa?',
+      'text-photopackages-p6': 'Kiinnostuitko? Ota yhteyttä lomakkeen avulla ja käydään vaikka kahvilla. Jutellaan toiveistasi ja suunnitellaan kuvauspäivä, joka palvelee parhaalla mahdollisella tavalla sinun tarpeitasi.'
     }
   });
 

@@ -3,6 +3,18 @@ body, html, h1 {
     font-family: 'El Messiri', sans-serif;
 }
 
+.w600 {
+  font-weight: 600;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.w800 {
+  font-weight: 800;
+}
+
 .kauno {
   font-family: 'Parisienne', cursive;
   font-size: 30px;
