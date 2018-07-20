@@ -23,3 +23,8 @@ body, html, h1 {
 .mySlides {
   display:none;
 }
+
+.my-green, .my-hover-green:hover {
+  color: #000!important;
+  background-color: #99e699!important;
+}

@@ -74,6 +74,7 @@ jQuery(document).ready(function() {
       'text-about-p7': 'Jos kiinnostuksesi heräsi, minuun saa yhteyden tämän sivuston yhteydenottolomakkeen avulla. Pyrin vastaamaan 24 tunnin sisällä.',
       'text-about-p8': 'Suhtaudun avoimin mielin erilaisiin projekteihin, joten ethän epäröi ehdottaa ”hullujakin ideoita”. Tavoitteeni on, että valokuvani tuottaisivat sinulle hyvää mieltä läpi elämän.',
       'text-about-p9': 'Yhteydenottoasi odottaen',
+      'image-text-about': "Minä kesällä 19XX. Kuva: Michael Müller",
       'header-contact': 'Kivaa!',
       'text-contact-p1': 'Olen todella otettu, jos sivustoni nähtyäsi olet päättänyt, että haluat tutustua paremmin ja antaa minun taltioida jotakin sinulle tärkeää.',
       'text-contact-p2': 'Kerrothan yhteydenottolomakkeessa ainakin mihin, milloin ja miten pitkäksi aikaa haluaisit minut mahdollisesti kuvaajaksi tilata. Pyrin vastaamaan viestiisi 24 tunnin sisällä. Mikäli olemme yhdessä sitä mieltä, että olen sinulle sopiva kuvaaja, puhumme puhelimessa tai tapaamme livenä, ennen kuin allekirjoitamme kuvaussopimuksen.',
@@ -84,9 +85,20 @@ jQuery(document).ready(function() {
       'text-photopackages-p2': 'Tuntitaksani on <b>90 euroa</b> ja puolesta tunnista veloitan vastaavasti <b>45 euroa</b>. Tunnin kuvauskeikasta <b>lupaan vähintään 20 kpl</b> ja puolen tunnin kuvauskeikasta <b>vähintään 3 kpl</b> käsiteltyjä kuvia. Tällä tuntitaksalla pidätän oikeudet käyttää kuvia rajoituksetta omien kuvauspalveluideni markkinoitiin internet- ja some-kanavillani. Vastaavasti sinäkin saat jakaa kuvia halutessasi avoimesti internetissä, kunhan kuvaaja mainitaan.',
       'text-photopackages-p3': 'Olen havainnut, että joskus ihmiset kokevat kuvaustilanteet hyvin henkilökohtaisiksi. Tällöin kuvien käyttö markkinoinnissa voi tuntua kuvattavista epämukavalta. Haluan pystyä palvelemaan myös näitä henkilöitä. Siksi minut on mahdollista tilata myös sopimuksella, jossa molemmat osapuolet sitoutuvat siihen, ettei kuvia julkaista avoimesti. <b>Tällöin laskutan käyttöoikeuksista luopumisesta 50 prosentin lisämaksun</b>, jolloin tuntitaksakseni muodostuu <b>135 euroa</b> ja puolen tunnin taksaksi vastaavasti <b>67,5 euroa</b>. Saat kuitenkin jakaa valokuvia halutessasi sosiaalisessa mediassa rajatulle yleisölle, jolloin kuvaaja on niin ikään mainittava.',
       'text-photopackages-p4': 'Kuvauksesta 10 kilometrin päässä kodistani Helsingin Herttoniemessä perin <b>kilometrikorvauksen</b>, joka on <b>0,5 €/km</b>. Yli kolmen tunnin mittaisesta kuvauskeikasta perin etukäteen <b>20 prosenttia</b> työstä maksettavasta kokonaispalkkiosta.',
-
       'text-photopackages-p5': 'Minulta on mahdollista ostaa myös käsintehtyjä <b>lahjakortteja</b> eri kuvauspalveluihin. Mikä olisikaan ihanampi aineeton lahja rakkaalle ihmiselle, kuin vaikkapa sarja yhteiskuvia jossakin molemmille merkityksellisessä paikassa?',
-      'text-photopackages-p6': 'Kiinnostuitko? Ota yhteyttä lomakkeen avulla ja käydään vaikka kahvilla. Jutellaan toiveistasi ja suunnitellaan kuvauspäivä, joka palvelee parhaalla mahdollisella tavalla sinun tarpeitasi.'
+      'text-photopackages-p6': 'Kiinnostuitko? Ota yhteyttä lomakkeen avulla ja käydään vaikka kahvilla. Jutellaan toiveistasi ja suunnitellaan kuvauspäivä, joka palvelee parhaalla mahdollisella tavalla sinun tarpeitasi.',
+      'dl-photopackages-header':"Eri kuvaustilanteisiin suosittelen seuraavia kuvausaikoja, vaikkakin kuvauksiin tarvittava aika riippuu aina siitä millaisia kuvia asiakas toivoo",
+      'dl-photopackages-dt1':"Hääkuvaus",
+      'dl-photopackages-dl11':"- Vihkiseremonia ja potretit: 2–4 tuntia",
+      'dl-photopackages-dl12':"- Dokumentaarinen hääkuvaus: 6–10 tuntia",
+      'dl-photopackages-dt2':"Muu juhlakuvaus",
+      'dl-photopackages-dl21':"- valmistujais-, syntymäpäivä-, ristijäis- tai polttarikuvaus : 2–10 tuntia",
+      'dl-photopackages-dt3':"Minä itse -kuvaus",
+      'dl-photopackages-dl31':"- odotuskuvaus, valmistujaiskuvaus tai muuten vain -kuvaus miljöössä: 0,5–2 tuntia",
+      'dl-photopackages-dt4':"Perhekuvaus / lapsikuvaus / kihlakuvaus / parisuhdekuvaus / ystäväkuvaus miljöössä",
+      'dl-photopackages-dl41':"- 1–2 tuntia",
+      'dl-photopackages-dt5':"Lemmikkikuvaus miljöössä",
+      'dl-photopackages-dl51':"- 1–2 tuntia"
     }
   });
 
