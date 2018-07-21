@@ -97,18 +97,18 @@ jQuery(document).ready(function() {
       'text-photopackages-p5': 'Minulta on mahdollista ostaa myös käsintehtyjä <b>lahjakortteja</b> eri kuvauspalveluihin. Mikä olisikaan ihanampi aineeton lahja rakkaalle ihmiselle, kuin vaikkapa sarja yhteiskuvia jossakin molemmille merkityksellisessä paikassa?',
       'text-photopackages-p6': 'Kiinnostuitko? Ota yhteyttä <a href="contact.html">lomakkeen</a> avulla ja käydään vaikka kahvilla. Jutellaan toiveistasi ja suunnitellaan kuvauspäivä, joka palvelee parhaalla mahdollisella tavalla sinun tarpeitasi.',
       'dl-photopackages-header':"Eri kuvaustilanteisiin suosittelen seuraavia kuvausaikoja, vaikkakin kuvauksiin tarvittava aika riippuu aina siitä millaisia kuvia asiakas toivoo",
-      'dl-photopackages-dt1':"Hääkuvaus",
-      'dl-photopackages-dl11':"- Vihkiseremonia ja potretit: 2–4 tuntia",
-      'dl-photopackages-dl12':"- Dokumentaarinen hääkuvaus: 6–10 tuntia",
-      'dl-photopackages-dt2':"Muu juhlakuvaus",
-      'dl-photopackages-dl21':"- valmistujais-, syntymäpäivä-, ristijäis- tai polttarikuvaus : 2–10 tuntia",
-      'dl-photopackages-dt3':"Minä itse -kuvaus",
-      'dl-photopackages-dl31':"- odotuskuvaus, valmistujaiskuvaus tai muuten vain -kuvaus miljöössä: 0,5–2 tuntia",
-      'dl-photopackages-dt4':"Perhekuvaus / lapsikuvaus / kihlakuvaus / parisuhdekuvaus / ystäväkuvaus miljöössä",
-      'dl-photopackages-dl41':"- 1–2 tuntia",
-      'dl-photopackages-dt5':"Lemmikkikuvaus miljöössä",
-      'dl-photopackages-dl51':"- 1–2 tuntia",
-      'text-thankyou': "Kiitos viestistäsi. Pyrin vastaamaan sinulle seuraavan vuorokauden aikana."
+      'dl-photopackages-dt1': 'Hääkuvaus',
+      'dl-photopackages-dl11': '- Vihkiseremonia ja potretit: 2–4 tuntia',
+      'dl-photopackages-dl12': '- Dokumentaarinen hääkuvaus: 6–10 tuntia',
+      'dl-photopackages-dt2': 'Muu juhlakuvaus',
+      'dl-photopackages-dl21': '- valmistujais-, syntymäpäivä-, ristijäis- tai polttarikuvaus : 2–10 tuntia',
+      'dl-photopackages-dt3': 'Minä itse -kuvaus',
+      'dl-photopackages-dl31': '- odotuskuvaus, valmistujaiskuvaus tai muuten vain -kuvaus miljöössä: 0,5–2 tuntia',
+      'dl-photopackages-dt4': 'Perhekuvaus / lapsikuvaus / kihlakuvaus / parisuhdekuvaus / ystäväkuvaus miljöössä',
+      'dl-photopackages-dl41': '- 1–2 tuntia',
+      'dl-photopackages-dt5': 'Lemmikkikuvaus miljöössä',
+      'dl-photopackages-dl51': '- 1–2 tuntia',
+      'text-thankyou': 'Kiitos viestistäsi. Pyrin vastaamaan sinulle seuraavan vuorokauden aikana.'
     }
   });
 
