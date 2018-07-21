@@ -80,7 +80,6 @@ jQuery(document).ready(function() {
       'text-about-p8': 'Suhtaudun avoimin mielin erilaisiin projekteihin, joten ethän epäröi ehdottaa ”hullujakin ideoita”. Tavoitteeni on, että valokuvani tuottaisivat sinulle hyvää mieltä läpi elämän.',
       'text-about-p9': 'Yhteydenottoasi odottaen',
       'image-text-about': "Minä saksalaisella maatilalla vuonna 1990. Kuva: Michael Müller",
-
       'header-contact': 'Kivaa!',
       'text-contact-p1': 'Olen todella otettu, jos sivustoni nähtyäsi olet päättänyt, että haluat tutustua paremmin ja antaa minun taltioida jotakin sinulle tärkeää.',
       'text-contact-p2': 'Kerrothan yhteydenottolomakkeessa ainakin mihin, milloin ja miten pitkäksi aikaa haluaisit minut mahdollisesti kuvaajaksi tilata. Pyrin vastaamaan viestiisi 24 tunnin sisällä. Mikäli olemme yhdessä sitä mieltä, että olen sinulle sopiva kuvaaja, puhumme puhelimessa tai tapaamme livenä, ennen kuin allekirjoitamme kuvaussopimuksen.',
@@ -108,7 +107,8 @@ jQuery(document).ready(function() {
       'dl-photopackages-dt4':"Perhekuvaus / lapsikuvaus / kihlakuvaus / parisuhdekuvaus / ystäväkuvaus miljöössä",
       'dl-photopackages-dl41':"- 1–2 tuntia",
       'dl-photopackages-dt5':"Lemmikkikuvaus miljöössä",
-      'dl-photopackages-dl51':"- 1–2 tuntia"
+      'dl-photopackages-dl51':"- 1–2 tuntia",
+      'text-thankyou': "Kiitos viestistäsi. Pyrin vastaamaan sinulle seuraavan vuorokauden aikana."
     }
   });
 
