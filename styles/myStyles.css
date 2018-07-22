@@ -1,18 +1,15 @@
 body, html, h1 {
     height: 100%;
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
+    font-family: 'Slabo 27px', serif;
 }
 
-.w600 {
-  font-weight: 600;
+.my-xxlarge {
+    font-size: 42px!important;
 }
 
-.w700 {
-  font-weight: 700;
-}
-
-.w800 {
-  font-weight: 800;
+.my-xlarge {
+    font-size: 26px!important;
 }
 
 .kauno {
