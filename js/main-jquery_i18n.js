@@ -72,7 +72,8 @@ jQuery(document).ready(function() {
       'dl-photopackages-dl41': '- 1 to 2 hours',
       'dl-photopackages-dt5': '<b>A pet photo shoot in setting</b>',
       'dl-photopackages-dl51': '- 1 to 2 hours',
-      'text-thankyou': 'Thank you for your message. I aim to reply to your message within 24 hours.'
+      'text-thankyou': 'Thank you for your message. I aim to reply to your message within 24 hours.',
+      'image-text-contact': 'Photo: Aki Blomqvist'
     },
     'fi': {
       'nav-home': 'Etusivu',
@@ -84,7 +85,6 @@ jQuery(document).ready(function() {
       'header-intro': 'Kiva, kun olet täällä!',
       'text-intro': 'Minä olen Julia Blomqvist, 31-vuotias perhevalokuvaaja Helsingistä. Uskon vakaasti siihen, että jokainen yksilö, ihmissuhde ja hetki on omalla tavallaan ainutlaatuinen ja kaunis. Koenkin onnistuneeni valokuvaajana parhaiten silloin, kun pystyn ikuistamaan tämän kauneuden niin, että lopputulos on mahdollisimman luonnollinen. En siis pyri valokuvauksessa mainosmaisiin otoksiin, vaan tavoitteenani on ottaa kuvia, joista sinun on helppo tunnistaa omasi ja läheistesi parhaat puolet. Kuvia, jotka auttavat muistamaan niitä hetkiä, ihmissuhteita ja asioita, jotka ovat elämässäsi tärkeitä. Minut voi tilata valokuvaamaan ympäri Suomea, vaikkakin kuvaan pääsääntöisesti pääkaupunkiseudulla. Ota rohkeasti yhteyttä ja suunnitellaan sinulle yhdessä ikimuistoinen kuvauspäivä.',
       'title-portfolio': 'Portfolio',
-
       'header-about': 'Moikka!',
       'text-about-p1': 'Olen kolmekymppinen valokuvaaja Helsingistä, joka on aina inspiroitunut ihmisistä ja heidän elämäntarinoistaan.',
       'text-about-p2': 'Valokuvaus on minulle tuttua lapsesta saakka, koska isäni tapasi kuvata paljon jo ollessani pieni. Hänen tekemänsä kuva-albumit ovat auttaneet minua muistamaan asioita vuosien takaa ja monesta kuvasta on tullut minulle erittäin tärkeä.',
@@ -124,7 +124,8 @@ jQuery(document).ready(function() {
       'dl-photopackages-dl41': '- 1–2 tuntia',
       'dl-photopackages-dt5': '<b>Lemmikkikuvaus miljöössä</b>',
       'dl-photopackages-dl51': '- 1–2 tuntia',
-      'text-thankyou': 'Kiitos viestistäsi. Pyrin vastaamaan sinulle seuraavan vuorokauden aikana.'
+      'text-thankyou': 'Kiitos viestistäsi. Pyrin vastaamaan sinulle seuraavan vuorokauden aikana.',
+      'image-text-contact': 'Kuva: Aki Blomqvist'
     }
   });
 
