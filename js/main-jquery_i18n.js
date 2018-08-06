@@ -116,7 +116,7 @@ jQuery(document).ready(function() {
       'dl-photopackages-dl11': '- Vihkiseremonia ja potretit: 2–4 tuntia',
       'dl-photopackages-dl12': '- Dokumentaarinen hääkuvaus: 6–10 tuntia',
       'dl-photopackages-dt2': '<b>Muu juhlakuvaus</b>',
-      'dl-photopackages-dl21': '- valmistujais-, syntymäpäivä-, ristijäis- tai polttarikuvaus : 2–10 tuntia',
+      'dl-photopackages-dl21': '- valmistujais-, syntymäpäivä-, ristiäis- tai polttarikuvaus : 2–10 tuntia',
       'dl-photopackages-dt3': '<b>Minä itse -kuvaus</b>',
       'dl-photopackages-dl31': '- odotuskuvaus, valmistujaiskuvaus tai muuten vain -kuvaus miljöössä: 0,5–2 tuntia',
       'dl-photopackages-dt4': '<b>Perhekuvaus / lapsikuvaus / kihlakuvaus / parisuhdekuvaus / ystäväkuvaus miljöössä</b>',
