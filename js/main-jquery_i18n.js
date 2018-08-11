@@ -97,7 +97,8 @@ jQuery(document).ready(function() {
       'dl-photopackages-dl41': '- 1 to 2 hours',
       'dl-photopackages-dt5': '<b>A pet photo shoot in setting</b>',
       'dl-photopackages-dl51': '- 1 to 2 hours',
-      'text-thankyou': 'Thank you for your message. I aim to reply to your message within 24 hours.',
+      'header-thankyou': 'Thank you for your message!',
+      'text-thankyou': 'I aim to reply to your message within 24 hours.',
       'image-text-contact': 'Photo: Aki Blomqvist'
     },
     'fi': {
@@ -149,7 +150,8 @@ jQuery(document).ready(function() {
       'dl-photopackages-dl41': '- 1–2 tuntia',
       'dl-photopackages-dt5': '<b>Lemmikkikuvaus miljöössä</b>',
       'dl-photopackages-dl51': '- 1–2 tuntia',
-      'text-thankyou': 'Kiitos viestistäsi. Pyrin vastaamaan sinulle seuraavan vuorokauden aikana.',
+      'header-thankyou': 'Kiitos viestistäsi!',
+      'text-thankyou': 'Pyrin vastaamaan sinulle seuraavan vuorokauden aikana.',
       'image-text-contact': 'Kuva: Aki Blomqvist'
     }
   });
