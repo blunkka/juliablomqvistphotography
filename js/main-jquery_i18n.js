@@ -24,6 +24,7 @@ jQuery(document).ready(function() {
       setDefaultLang();
     }
     */
+   setDefaultLang();
   };
 
   var clear_lang_param = function() {
