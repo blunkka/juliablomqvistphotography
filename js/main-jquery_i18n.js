@@ -1,9 +1,7 @@
 jQuery(document).ready(function() {
 
   var update_texts = function() {
-    console.log('update_texts');
     var selectedLocale = localStorage.getItem('jbplocale');
-    console.log('selectedLocale:' + selectedLocale);
 
     if(selectedLocale == null) {
       localStorage.setItem('jbplocale', 'fi');
