@@ -1,8 +1,10 @@
 jQuery(document).ready(function() {
 
   var update_texts = function() {
-
+    console.log('update_texts');
     var selectedLocale = localStorage.getItem('jbplocale');
+    console.log('selectedLocale:' + selectedLocale);
+
     if(selectedLocale == null) {
       localStorage.setItem('jbplocale', 'fi');
     }
@@ -10,6 +12,32 @@ jQuery(document).ready(function() {
     $.i18n().locale = localStorage.getItem('jbplocale');
 
     $('body').i18n();
+  };
+
+  var lang_param = function() {
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var l = url.searchParams.get("lang");
+    
+    if(l!==null) {
+      if(l.trim()==='fi' || l.trim()==='FI' || l.trim()==='en' || l.trim()==='EN') {
+        localStorage.setItem('jbplocale', l.toLowerCase());
+      }
+    }
+    clear_lang_param();
+  };
+
+  var clear_lang_param = function() {
+    // get the string following the ?
+    var query = window.location.search.substring(1)
+    // is there anything there ?
+    if(query.length) {
+      // are the new history methods available ?
+      if(window.history != undefined && window.history.pushState != undefined) {
+            // if pushstate exists, add a new state the the history, this changes the url without reloading the page
+            window.history.pushState({}, document.title, window.location.pathname);
+      }
+    }
   };
 
   $('.lang-switch').click(function(e) {
@@ -128,5 +156,6 @@ jQuery(document).ready(function() {
     }
   });
 
+  lang_param();
   update_texts();
 });
