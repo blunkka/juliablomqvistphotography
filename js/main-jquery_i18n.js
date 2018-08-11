@@ -4,7 +4,6 @@ jQuery(document).ready(function() {
     var selectedLocale = localStorage.getItem('jbplocale');
 
     if(selectedLocale === null) {
-      console.log('locale is null')
       localStorage.setItem('jbplocale', 'fi');
     }
 
@@ -23,7 +22,7 @@ jQuery(document).ready(function() {
         localStorage.setItem('jbplocale', l.toLowerCase());
       }
     }
-    clear_lang_param();
+    /*clear_lang_param();*/
   };
 
   var clear_lang_param = function() {
