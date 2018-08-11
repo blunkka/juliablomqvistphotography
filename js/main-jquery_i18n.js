@@ -8,15 +8,7 @@ jQuery(document).ready(function() {
   }
 
   var lang_param = function() {
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    var l = url.searchParams.get('lang');
-    /*
-    
-    
-    
-    
-    
+    var l = getParameter('lang');
     if(l!==null) {
       if(l.trim()==='fi' || l.trim()==='FI' || l.trim()==='en' || l.trim()==='EN') {
         localStorage.setItem('jbplocale', l.toLowerCase());
@@ -27,8 +19,13 @@ jQuery(document).ready(function() {
     } else {
       setDefaultLang();
     }
-    */
-   setDefaultLang();
+  };
+
+  var getParameter = function(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   };
 
   var clear_lang_param = function() {
