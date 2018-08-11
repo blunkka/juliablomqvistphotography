@@ -1,17 +1,5 @@
 jQuery(document).ready(function() {
 
-  var update_texts = function() {
-    var selectedLocale = localStorage.getItem('jbplocale');
-
-    if(selectedLocale === null) {
-      localStorage.setItem('jbplocale', 'fi');
-    }
-
-    $.i18n().locale = localStorage.getItem('jbplocale');
-
-    $('body').i18n();
-  };
-
   var lang_param = function() {
     var url_string = window.location.href;
     var url = new URL(url_string);
@@ -21,8 +9,8 @@ jQuery(document).ready(function() {
       if(l.trim()==='fi' || l.trim()==='FI' || l.trim()==='en' || l.trim()==='EN') {
         localStorage.setItem('jbplocale', l.toLowerCase());
       }
+      clear_lang_param();
     }
-    /*clear_lang_param();*/
   };
 
   var clear_lang_param = function() {
@@ -36,6 +24,19 @@ jQuery(document).ready(function() {
             window.history.pushState({}, document.title, window.location.pathname);
       }
     }
+  };
+
+  var update_texts = function() {
+    lang_param();
+
+    var selectedLocale = localStorage.getItem('jbplocale');
+
+    if(selectedLocale === null) {
+      localStorage.setItem('jbplocale', 'fi');
+    }
+
+    $.i18n().locale = localStorage.getItem('jbplocale');
+    $('body').i18n();
   };
 
   $('.lang-switch').click(function(e) {
@@ -156,6 +157,5 @@ jQuery(document).ready(function() {
     }
   });
 
-  lang_param();
   update_texts();
 });
