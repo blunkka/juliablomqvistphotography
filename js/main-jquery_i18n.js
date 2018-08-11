@@ -12,6 +12,7 @@ jQuery(document).ready(function() {
     var url = new URL(url_string);
     var l = url.searchParams.get('lang');
     
+    /*
     if(l!==null) {
       if(l.trim()==='fi' || l.trim()==='FI' || l.trim()==='en' || l.trim()==='EN') {
         localStorage.setItem('jbplocale', l.toLowerCase());
@@ -22,6 +23,7 @@ jQuery(document).ready(function() {
     } else {
       setDefaultLang();
     }
+    */
   };
 
   var clear_lang_param = function() {
