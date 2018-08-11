@@ -10,10 +10,11 @@ jQuery(document).ready(function() {
   var lang_param = function() {
     var url_string = window.location.href;
     var url = new URL(url_string);
+    var l = url.searchParams.get('lang');
     /*
     
     
-    var l = url.searchParams.get('lang');
+    
     
     
     if(l!==null) {
