@@ -1,5 +1,12 @@
 jQuery(document).ready(function() {
 
+  var setDefaultLang = function() {
+    var selectedLocale = localStorage.getItem('jbplocale');
+    if(selectedLocale === null) {
+      localStorage.setItem('jbplocale', 'fi');
+    }
+  }
+
   var lang_param = function() {
     var url_string = window.location.href;
     var url = new URL(url_string);
@@ -8,8 +15,12 @@ jQuery(document).ready(function() {
     if(l!==null) {
       if(l.trim()==='fi' || l.trim()==='FI' || l.trim()==='en' || l.trim()==='EN') {
         localStorage.setItem('jbplocale', l.toLowerCase());
+      } else {
+        setDefaultLang();
       }
       clear_lang_param();
+    } else {
+      setDefaultLang();
     }
   };
 
@@ -27,13 +38,7 @@ jQuery(document).ready(function() {
   };
 
   var update_texts = function() {
-    /*lang_param();*/
-
-    var selectedLocale = localStorage.getItem('jbplocale');
-
-    if(selectedLocale === null) {
-      localStorage.setItem('jbplocale', 'fi');
-    }
+    lang_param();
 
     $.i18n().locale = localStorage.getItem('jbplocale');
     $('body').i18n();
