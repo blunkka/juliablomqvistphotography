@@ -8,11 +8,12 @@ jQuery(document).ready(function() {
   }
 
   var lang_param = function() {
+    /*
     var url_string = window.location.href;
     var url = new URL(url_string);
     var l = url.searchParams.get('lang');
     
-    /*
+    
     if(l!==null) {
       if(l.trim()==='fi' || l.trim()==='FI' || l.trim()==='en' || l.trim()==='EN') {
         localStorage.setItem('jbplocale', l.toLowerCase());
