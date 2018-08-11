@@ -3,7 +3,8 @@ jQuery(document).ready(function() {
   var update_texts = function() {
     var selectedLocale = localStorage.getItem('jbplocale');
 
-    if(selectedLocale == null) {
+    if(selectedLocale === null) {
+      console.log('locale is null')
       localStorage.setItem('jbplocale', 'fi');
     }
 
